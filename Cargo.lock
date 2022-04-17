@@ -71,7 +71,7 @@ dependencies = [
 
 [[package]]
 name = "astexplorer-gleam"
-version = "0.1.0"
+version = "0.21.0-rc1"
 dependencies = [
  "gleam-core",
  "wasm-bindgen",

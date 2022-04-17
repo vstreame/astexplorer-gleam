@@ -1,13 +1,16 @@
 [package]
 name = "astexplorer-gleam"
-version = "0.1.0"
+version = "0.21.0-rc1"
 edition = "2021"
+description = "JS wrapper for Gleam's Rust parser to be used with ASTExplorer"
+license = "MIT"
+repository = "https://github.com/vstreame/astexplorer-gleam"
 
 [lib]
 crate-type = ["cdylib"]
 
 [dependencies]
-wasm-bindgen = "0.2.80"
+wasm-bindgen = "0.2.39"
 gleam-core = { version = "=0.21.0-rc1", path = "gleam/compiler-core" }
 
 [profile.release]
